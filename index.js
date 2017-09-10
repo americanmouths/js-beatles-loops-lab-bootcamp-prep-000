@@ -16,3 +16,12 @@ i++;
 }
 return newFacts;
 }
+
+function iLoveTheBeatles(number) {
+  var newNumber = [];
+  do {
+    newNumber.push("I love the Beatles!");
+    number++;
+  } while (number < 15);
+  return newNumber;
+}
